@@ -5,9 +5,7 @@ import imutils
 from imutils.video import FileVideoStream, VideoStream
 
 
-# TRACKER_TYPE = 'CSRT'
-path = 'Materials/Images/vid_small.mp4'
-# path = 1        
+path = 0 # 0 for webcam   
 SIZE_WIDTH = 600
 SIZE_HEIGHT = 600
 COLOR_RED = (0, 0, 255)

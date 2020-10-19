@@ -7,16 +7,19 @@ from imutils.video import FileVideoStream, VideoStream
 
 from utils import *
 
-# path = 1
+# -----Paste the output of Setup.ipynb here (if want to change the default values) ----------------
 
-bbox_body = (234, 209, 95, 127)  # bbox of face
-bbox_switch = [(134, 247, 57, 58), (410, 263, 38, 75)] # bbox of switches
+bbox_body = (200, 95, 100, 100)  # bbox of face
+bbox_switch = [(342, 75, 72, 69), (319, 270, 80, 81)] # bbox of switches (0-punch, 1-kick)
+
+# -------------------------------------------------------------------------------------------------
+
 
 center_point = get_centroid(bbox_body) # center of face
 n = len(bbox_switch) # no. of switches
 buttons_data = [bbox_body, center_point, n, bbox_switch]
         
-THRESH = 1500 # Threshold for a action to be registered. Lower thresh will lead to more pressing of switch.
+THRESH = 1000 # Threshold for a action to be registered. Lower thresh will lead to more pressing of switch.
 
 class Switch():
     
