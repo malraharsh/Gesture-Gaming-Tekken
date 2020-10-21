@@ -2,7 +2,7 @@
 
 This is my project on Playing Tekken with Gestures.
 
-Detailed blog on its Working can be found [here.](https://medium.com/@harshmalra/playing-tekken-with-opencv-and-python-cb437b93a52d).
+**NOTE** - Detailed blog on its Working can be found [**here**](https://medium.com/@harshmalra/playing-tekken-with-opencv-and-python-cb437b93a52d).
 
 ![](https://github.com/malraharsh/Gesture-Gaming-Tekken/blob/main/gif.gif)
 
@@ -12,4 +12,4 @@ Feel free to use in your own projects. If you decide to use my code please consi
 
 ## More
 
-If you liked this consider giving this a **star**. To copy this work **fork** it.
+If you liked this consider giving this a **STAR**. To copy this work **FORK** it.
